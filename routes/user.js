@@ -10,9 +10,9 @@ router.get("/users" , (req , res) => {
 })
 
 
-// router.get("/users/:id" , (req , res) => {
-//     userController.getUserById(req , res);
-// })
+router.get("/users/:id" , (req , res) => {
+    userController.getUserById(req , res);
+})
 
 
 
